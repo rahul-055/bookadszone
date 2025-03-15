@@ -1,0 +1,30 @@
+.dashboard-com{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.dashboard-com>.menu-card-sec{
+    display: flex;
+  flex-wrap: wrap;
+  gap: 15px; /* Adjust spacing between cards */
+  justify-content: flex-start; 
+}
+.dashboard-com>.chart-recent-sec{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+.dashboard-com>.chart-recent-sec>.chart-sec{
+    width: 60%;
+}
+.dashboard-com>.chart-recent-sec>.chart-sec>div{
+    height: 400px;
+}
+.dashboard-com>.chart-recent-sec>.recent{
+    width: 40%; 
+    background-color: var(--background-white);
+}
+.expired-product-sec{
+    background-color: var(--background-white);
+
+}

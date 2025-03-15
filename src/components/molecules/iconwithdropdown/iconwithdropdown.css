@@ -1,0 +1,9 @@
+.icon-with-drop-down-sec {
+    display: inline-block;
+    position: relative;
+}
+.icon-with-drop-down-sec>.list {
+    position: absolute;
+    right: 0;
+
+}

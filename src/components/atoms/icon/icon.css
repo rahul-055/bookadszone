@@ -1,0 +1,39 @@
+.icon-drop {
+    position: relative;
+}
+.icon-drop>.common-icon {
+    width: 35px;
+    height: 35px;
+    color: var(--text-color-primary);
+    cursor: pointer;
+}
+.icon-drop>.common-icon:hover {
+    color: var(--hover-link-color);
+}
+.icon-drop>.badge{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: var(--warning-color);
+    font-size: var(--font-size-xsmall);
+    position: absolute;
+    top: -10px;
+    left: 28px;
+}
+.icon-drop>.badge>span {
+    width: 20px;
+    height: 20px;
+    color: var(--text-color-inverse);
+}
+
+/* ========================================= */
+.card-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: var(--tertiary-color);
+}
+.card-icon>.icon>svg {
+    color: var(--background-white);
+    font-size: var(--font-size-large);
+}

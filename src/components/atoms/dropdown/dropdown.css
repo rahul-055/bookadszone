@@ -1,0 +1,106 @@
+.dropdown-sec>.custom-dropdown {
+  position: relative;
+  width: 200px;
+  font-family: Arial, sans-serif;
+}
+
+.dropdown-sec>.custom-dropdown>.dropdown-selected {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown-sec>.custom-dropdown>.dropdown-selected::after {
+  content: "\25BC";
+  /* Down arrow */
+  font-size: 12px;
+}
+
+.dropdown-sec>.custom-dropdown>.dropdown-options {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  width: 100%;
+  z-index: 99;
+}
+
+.dropdown-sec>.custom-dropdown>.dropdown-options>.dropdown-option {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-sec>.custom-dropdown>.dropdown-options>.dropdown-option img {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.dropdown-sec>.custom-dropdown>.dropdown-options>.dropdown-option:hover {
+  background-color: var(--background-dark);
+}
+
+.dropdown-sec>.custom-dropdown:hover .dropdown-options {
+  display: block;
+}
+
+/* =================Coustom select option */
+.custom-dropdown {
+  position: relative;
+  width: 200px;
+  font-family: Arial, sans-serif;
+}
+
+.custom-dropdown>.dropdown-header {
+  background: var(--background-color);
+  border: 1px solid var(--border-color);
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.custom-dropdown>.dropdown-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background: var(--background-color);
+  border: 1px solid var(--border-color);
+  border-top: none;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
+.custom-dropdown>.dropdown-list>.dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.custom-dropdown>.dropdown-list>.dropdown-item:hover {
+  background: var(--warning-color);
+  color: var(--background-color);
+}
+
+.custom-dropdown>.dropdown-list>.selected {
+  background: var(--warning-color);
+  color: var(--background-color);
+}
+
+.custom-dropdown .arrow {
+  font-size: var(--font-size-large);
+  transition: transform 0.2s;
+}
+
+.custom-dropdown .arrow.up {
+  transform: rotate(180deg);
+  
+}

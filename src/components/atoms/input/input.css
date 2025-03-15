@@ -1,0 +1,8 @@
+.input-sec>input {
+    height: 35px;
+    width: 300px;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--border-color);
+    background-color: var(--background-color);
+    padding: 0 10px;
+}

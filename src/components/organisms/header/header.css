@@ -1,0 +1,15 @@
+.header-sec {
+    border-bottom: 1px solid var(--border-color);
+    padding: 12px 25px;
+    background-color: var(--background-white);
+}
+
+.header-sec>.header-left {
+    flex: 1;
+}
+
+.header-sec>.header-right {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}

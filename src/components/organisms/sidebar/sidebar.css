@@ -1,0 +1,115 @@
+.sidebar-sec>.nav-items {
+    padding: 20px;
+}
+
+.sidebar-sec>.nav-items>ul>li>a>.icon-label {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.sidebar-sec>.nav-items>ul>li {
+    margin-bottom: 5px;
+}
+
+.sidebar-sec>.nav-items>ul>li>a {
+    padding: 10px 20px;
+    display: block;
+    color: var(--text-light-color);
+}
+
+.sidebar-sec>.nav-items>ul>li>a:hover {
+    color: var(--hover-link-color);
+}
+
+.sidebar-sec>.nav-items>ul>li>a:active {
+    background-color: var(--background-color);
+    color: var(--hover-link-color);
+}
+
+.sidebar-sec>.nav-items>ul>li>a>.icon-label>.icon>.menu-icon {
+    font-size: var(--font-size-base);
+    color: var(--text-color-primary);
+    letter-spacing: var(--letter-spacing-loose);
+    margin-right: 10px;
+}
+
+.sidebar-sec>.nav-items>ul>li>a>.icon-label>.icon>.menu-icon>svg {
+    width: 16px;
+    height: 16px;
+    color: var(--text-light-color);
+}
+
+.sidebar-sec>.nav-items>ul>li>a>.icon-label>.lable>span {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-sec>.nav-items>ul>li>a>.icon-label>.right-arrow {
+    margin-left: auto;
+}
+
+.right-arrow {
+    transition: transform 0.2s ease-in-out;
+}
+
+.right-arrow.rotate {
+    transform: rotate(90deg);
+}
+
+.sidebar-sec>.nav-items .menu-item.open .submenu {
+    display: block;
+}
+
+/* =================== */
+.sidebar-sec>.nav-items .menu-item {
+    position: relative;
+}
+
+.sidebar-sec>.nav-items .submenu {
+    list-style: none;
+    padding-left: 20px;
+    display: none;
+}
+
+.sidebar-sec>.nav-items .menu-item .submenu {
+    display: block;
+}
+
+.sidebar-sec>.nav-items .submenu li {
+    padding: 10px 0;
+}
+
+.sidebar-sec>.nav-items .submenu a {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.sidebar-sec>.nav-items .submenu a:hover {
+    color: var(--warning-color);
+}
+
+.sidebar-sec>.nav-items .submenu>.submenu-item {
+    display: flex;
+    cursor: pointer;
+}
+
+.sidebar-sec>.nav-items .submenu>.submenu-item:hover,
+.sidebar-sec>.nav-items .submenu>.submenu-item:hover a {
+    color: var(--warning-color);
+
+}
+
+.sidebar-sec>.nav-items .submenu>.submenu-item>.dot-icon {
+    margin-right: 10px;
+    font-size: var(--font-size-xxxsmall);
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-sec>.nav-items .submenu>.submenu-item>.dot-icon:hover {
+    color: var(--warning-color);
+}
+
+.sidebar-sec>.nav-items .submenu>.submenu-item>.lbl-link {}

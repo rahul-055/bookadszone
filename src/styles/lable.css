@@ -1,0 +1,25 @@
+/* For Header bold*/
+.lbl-title-1{
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-bold);
+    color: var(--text-block); 
+}
+/* For Header Medium*/
+.lbl-title-2{
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-medium);
+    color: var(--text-block); 
+}
+
+/* For Paragraph dark*/
+.lbl-title-3{
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-regular);
+    color: var(--text-block);
+}
+/* For Paragraph light */
+.lbl-title-4{
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-regular);
+    color: var(--text-light-color);
+}

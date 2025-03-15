@@ -1,0 +1,23 @@
+.menu-card-left {
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    background-color: var(--background-white);
+    padding: 20px;
+}
+
+.menu-card-left.card-with {
+    width: calc(24% - 0px);
+
+}
+
+.menu-card-left>.icon-count {
+    display: flex;
+}
+
+.menu-card-left>.icon-count>.icon {
+    margin-right: 15px;
+}
+
+.menu-card-left>.icon-count>.count>h2 {
+    margin-bottom: 5px;
+}

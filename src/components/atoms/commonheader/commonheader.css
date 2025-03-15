@@ -1,0 +1,13 @@
+.common-header{
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border-color);
+}
+.common-header>.view-url{
+    cursor: pointer;
+}
+.common-header>.view-url:hover .view {
+    color: var(--hover-link-color);
+}
+/* .common-header>.view-url>.view:hover{
+    color: var(--success-color);
+} */

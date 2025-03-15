@@ -1,0 +1,295 @@
+:root {
+    /* Colors */
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --tertiary-color: #9b59b6;
+    --background-color: #f3f6f9;
+    --background-white: #ffff;
+    --background-dark: #ecf0f1;
+    --text-block:#000;
+    --text-color: #333;
+    --text-light-color: #5b6670;
+    --text-muted-color: #888;
+    --border-color: #e0e0e0;
+    --error-color: #010000;
+    --success-color: #2ecc71;
+    --warning-color: #f39c12;
+    --info-color: #3498db;
+    --link-color: #2980b9;
+    --hover-link-color: #1abc9c;
+    --disabled-color: #bdc3c7;
+    --focus-color: #3498db;
+    --active-color: #2980b9;
+
+    /* General Font Properties */
+    --font-main: 'Roboto', sans-serif;
+    --font-alt: 'Open Sans', sans-serif;
+    --font-mono: 'Courier New', monospace;
+
+    /* Font Sizes */
+    --font-size-xxxsmall: 8px;
+    --font-size-xxsmall: 10px;
+    --font-size-xsmall: 12px;
+    --font-size-small: 14px;
+    --font-size-base: 16px;
+    --font-size-medium: 18px;
+    --font-size-large: 20px;
+    --font-size-xlarge: 24px;
+    --font-size-xxlarge: 32px;
+    --font-size-h1: 36px;
+    --font-size-h2: 30px;
+    --font-size-h3: 24px;
+    --font-size-h4: 20px;
+    --font-size-h5: 18px;
+    --font-size-h6: 16px;
+
+    /* Font Weights */
+    --font-weight-thin: 100;
+    --font-weight-extra-light: 200;
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extra-bold: 800;
+    --font-weight-black: 900;
+
+    /* Line Heights */
+    --line-height-tight: 1.2;
+    --line-height-normal: 1.5;
+    --line-height-loose: 1.75;
+
+    /* Letter Spacing */
+    --letter-spacing-normal: 0;
+    --letter-spacing-tight: -0.5px;
+    --letter-spacing-loose: 0.5px;
+    --letter-spacing-wider: 1px;
+    --letter-spacing-narrower: -1px;
+
+    /* Text Alignment */
+    --text-align-left: left;
+    --text-align-center: center;
+    --text-align-right: right;
+    --text-align-justify: justify;
+
+    /* Text Colors */
+    --text-color-normal:#343a40;
+    --text-color-primary: #67748e;
+    --text-color-secondary: #555;
+    --text-color-muted: #888;
+    --text-color-light: #aaa;
+    --text-color-inverse: #fff;
+    --text-link-color: #2980b9;
+    --text-link-hover-color: #1abc9c;
+    --text-error-color: #e74c3c;
+    --text-success-color: #2ecc71;
+
+
+
+    /* Text Decoration */
+    --text-decoration-none: none;
+    --text-decoration-underline: underline;
+    --text-decoration-line-through: line-through;
+    --text-decoration-overline: overline;
+
+    /* Text Transformations */
+    --text-transform-none: none;
+    --text-transform-uppercase: uppercase;
+    --text-transform-lowercase: lowercase;
+    --text-transform-capitalize: capitalize;
+
+    /* Text Shadow */
+    --text-shadow-none: none;
+    --text-shadow-light: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    --text-shadow-strong: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+    /* Word Spacing */
+    --word-spacing-normal: 0;
+    --word-spacing-wide: 0.5em;
+    --word-spacing-narrow: -0.25em;
+
+    /* Text Indentation */
+    --text-indent-small: 10px;
+    --text-indent-large: 20px;
+
+    /* Overflows and Ellipsis */
+    --text-overflow-ellipsis: ellipsis;
+    --text-overflow-clip: clip;
+    --white-space-normal: normal;
+    --white-space-nowrap: nowrap;
+    --white-space-pre: pre;
+
+    /* Spacing */
+    --spacing-xxsmall: 2px;
+    --spacing-xsmall: 4px;
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 24px;
+    --spacing-xlarge: 32px;
+    --spacing-xxlarge: 40px;
+
+    /* Borders */
+    --border-radius-small: 2px;
+    --border-radius: 4px;
+    --border-radius-large: 8px;
+    --border-radius-half: 50%;
+    --border-width: 1px;
+    --border-width-thick: 2px;
+    --border-style-solid: solid;
+    --border-style-dashed: dashed;
+    --border-style-dotted: dotted;
+
+    /* Shadows */
+    --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --box-shadow-light: 0 1px 3px rgba(0, 0, 0, 0.05);
+    --box-shadow-medium: 0 4px 8px rgba(0, 0, 0, 0.1);
+    --box-shadow-large: 0 8px 16px rgba(0, 0, 0, 0.15);
+    --box-shadow-hover: 0 6px 12px rgba(0, 0, 0, 0.2);
+
+    /* Transitions */
+    --transition-fast: 0.2s ease-in-out;
+    --transition-normal: 0.3s ease-in-out;
+    --transition-slow: 0.5s ease-in-out;
+    --transition-duration-short: 150ms;
+    --transition-duration-medium: 300ms;
+    --transition-duration-long: 600ms;
+
+    /* Animations */
+    --animation-duration-fast: 0.3s;
+    --animation-duration-normal: 0.5s;
+    --animation-duration-slow: 0.8s;
+    --animation-ease: cubic-bezier(0.4, 0, 0.2, 1);
+    --animation-bounce: bounce 1s infinite;
+    --animation-fade-in: fadeIn 0.5s ease-out;
+
+    /* Z-Index */
+    --z-index-low: 10;
+    --z-index-medium: 100;
+    --z-index-high: 1000;
+    --z-index-overlay: 1100;
+    --z-index-modal: 1200;
+    --z-index-tooltip: 1300;
+
+    /* Grid System */
+    --grid-gutter-width: 16px;
+    --grid-column-count: 12;
+    --grid-container-max-width: 1200px;
+    --grid-breakpoint-xs: 480px;
+    --grid-breakpoint-sm: 768px;
+    --grid-breakpoint-md: 1024px;
+    --grid-breakpoint-lg: 1200px;
+    --grid-breakpoint-xl: 1440px;
+
+    /* Breakpoints for Responsive Design */
+    --breakpoint-xs: 480px;
+    --breakpoint-sm: 768px;
+    --breakpoint-md: 1024px;
+    --breakpoint-lg: 1200px;
+    --breakpoint-xl: 1440px;
+
+    /* Buttons */
+    --button-padding: 12px 24px;
+    --button-font-size: 16px;
+    --button-border-radius: 4px;
+    --button-primary-background: var(--primary-color);
+    --button-secondary-background: var(--secondary-color);
+    --button-tertiary-background: var(--tertiary-color);
+    --button-primary-hover: #2980b9;
+    --button-secondary-hover: #27ae60;
+    --button-tertiary-hover: #8e44ad;
+    --button-disabled-background: var(--disabled-color);
+    --button-border-color: var(--border-color);
+    --button-border-width: var(--border-width);
+    --button-shadow: var(--box-shadow-light);
+
+    /* Links */
+    --link-text-decoration: none;
+    --link-hover-text-decoration: underline;
+    --link-color: var(--link-color);
+    --link-hover-color: var(--hover-link-color);
+    --link-active-color: var(--active-color);
+
+    /* Alerts */
+    --alert-padding: 16px;
+    --alert-border-radius: var(--border-radius);
+    --alert-box-shadow: var(--box-shadow-light);
+    --alert-info-background: var(--info-color);
+    --alert-success-background: var(--success-color);
+    --alert-error-background: var(--error-color);
+    --alert-warning-background: var(--warning-color);
+    --alert-text-color: #fff;
+
+    /* Slider */
+    --slider-track-color: var(--border-color);
+    --slider-thumb-color: var(--primary-color);
+    --slider-thumb-hover-color: var(--hover-link-color);
+    --slider-thumb-size: 16px;
+    --slider-track-height: 4px;
+
+    /* Modal */
+    --modal-background-color: rgba(0, 0, 0, 0.5);
+    --modal-content-background: #fff;
+    --modal-content-padding: 24px;
+    --modal-border-radius: var(--border-radius);
+    --modal-z-index: var(--z-index-modal);
+
+    /* Tooltip */
+    --tooltip-background-color: var(--text-muted-color);
+    --tooltip-text-color: #fff;
+    --tooltip-padding: 8px;
+    --tooltip-border-radius: var(--border-radius-small);
+    --tooltip-box-shadow: var(--box-shadow-light);
+    --tooltip-z-index: var(--z-index-tooltip);
+
+    /* Forms */
+    --input-padding: 10px 12px;
+    --input-border-radius: var(--border-radius);
+    --input-border-color: var(--border-color);
+    --input-focus-border-color: var(--primary-color);
+    --input-background-color: #fff;
+    --input-text-color: var(--text-color);
+    --input-placeholder-color: var(--text-light-color);
+    --input-error-border-color: var(--error-color);
+
+    /* Tables */
+    --table-border-color: var(--border-color);
+    --table-header-background: var(--background-dark);
+    --table-row-hover-background: rgba(0, 0, 0, 0.05);
+    --table-padding: 16px;
+    --table-zebra-stripe-background: var(--background-color);
+
+    /* Cards */
+    --card-padding: 16px;
+    --card-border-radius: var(--border-radius);
+    --card-background: #fff;
+    --card-border-color: var(--border-color);
+    --card-box-shadow: var(--box-shadow-light);
+
+    /* Navbar */
+    --navbar-height: 60px;
+    --navbar-background: var(--primary-color);
+    --navbar-text-color: #fff;
+    --navbar-padding: 0 16px;
+
+    /* Footer */
+    --footer-background: #2c3e50;
+    --footer-text-color: #fff;
+    --footer-padding: 24px;
+
+    /* Avatar */
+    --avatar-size-small: 32px;
+    --avatar-size-medium: 48px;
+    --avatar-size-large: 64px;
+    --avatar-border-radius: 50%;
+
+    /* Progress Bar */
+    --progress-bar-height: 8px;
+    --progress-bar-color: var(--primary-color);
+    --progress-bar-background: var(--background-dark);
+
+    /* Badges */
+    --badge-padding: 4px 8px;
+    --badge-border-radius: var(--border-radius);
+    --badge-font-size: var(--font-size-small);
+    --badge-background: var(--primary);
+}

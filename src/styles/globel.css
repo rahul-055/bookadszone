@@ -1,0 +1,63 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.av-admin-main-sec{
+    width: 100%;
+    display: flex;
+}
+.av-admin-main-sec>.sidebar-sev{
+    width: 17%;
+    height: 100vh;
+    border-right: 1px solid var(--border-color);
+}
+.av-admin-main-sec>.nav-main-content{
+    width: 83%;
+    background-color: var(--background-color);
+}
+.av-admin-main-sec>.nav-main-content>.main-template {
+    padding: 20px;
+}
+
+
+/* ========================= COmmon styles  */
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+input:focus{
+    outline: none;
+}
+p {
+    color: var(--text-color-normal);
+    font-size: var(--font-size-base);
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin-bottom: 0;
+}
+
+/* ==========scrollbar style========  */
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: #ebebeb;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: var(--warning-color); 
+}

@@ -1,0 +1,20 @@
+/* Base button styling */
+.expo-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: var(--border-radius);
+    transition: all 0.3s ease-in-out;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    background-color: var(--background-color);
+}
+.expo-btn>.btn-icon {
+    width: 25px;
+    height: 25px;
+}

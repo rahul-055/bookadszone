@@ -1,0 +1,13 @@
+
+.logo-sec>.log-size {
+    width: 100%;
+    height: 65px;
+    padding: 10px 20px;
+    /* border-bottom: 1px solid var(--border-color); */
+}
+
+.logo-sec>.log-size>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
