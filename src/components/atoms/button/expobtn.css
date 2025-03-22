@@ -10,15 +10,16 @@
     border: 1px solid var(--border-color);
 }
 .expo-btn>.btn-icon {
-    width: 25px;
-    height: 25px;
+    width: 45px;
+    height: 45px;
+    padding: 8px;
 }
 /* ========================================= */
 .common-btn {
     display: flex;
     align-items: center;
     gap: 8px;
-    padding: 10px 20px;
+    padding: 10px 30px;
     background-color: var(--button-primary-background);
     color: var(--background-white);
     border: none;

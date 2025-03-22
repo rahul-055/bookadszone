@@ -6,6 +6,7 @@ import { faAddressBook } from '@fortawesome/free-solid-svg-icons'
 import { faCircle } from '@fortawesome/free-regular-svg-icons'
 import { faFreebsd } from '@fortawesome/free-brands-svg-icons'
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import { faEye, faEdit, faTrash } from "@fortawesome/free-solid-svg-icons";
 
 export const ICONS = {
     "dashboard": faDashcube,
@@ -17,4 +18,7 @@ export const ICONS = {
     "faAddressBook": faAddressBook,
     "faFreebsd": faFreebsd,
     "faChevronRight": faChevronRight,
+    "faEye": faEye,
+    "faEdit": faEdit,
+    "faTrash": faTrash,
 }

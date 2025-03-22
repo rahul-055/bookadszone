@@ -33,5 +33,5 @@
     font-weight: var(--font-weight-regular);
 }
 .common-list-header>.title-btns>.right-btns{
-    gap: 8px;
+    gap: 16px;
 }

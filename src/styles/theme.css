@@ -26,7 +26,11 @@
     align-items: center;
     justify-content: space-around;
 }
-
+.flex-grop-5 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
 .cursor { 
     cursor: pointer;
 }

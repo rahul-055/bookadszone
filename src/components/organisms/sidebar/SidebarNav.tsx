@@ -44,7 +44,7 @@ const SidebarNav = () => {
               <div className="collapse" id="ui-basic">
                 <ul className="nav flex-column sub-menu">
                   <li className="nav-item">
-                    <p className="nav-link" onClick={() => navigateTo('/faq')}>Vaaaa</p>
+                    <p className="nav-link" onClick={() => navigateTo('/faq')}>FAQ</p>
                     {/* <a className="nav-link" href="">Buttons</a> */}
                   </li>
                   <li className="nav-item">

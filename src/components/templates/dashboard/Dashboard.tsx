@@ -33,10 +33,10 @@ export const Dashboard = () => {
                 <p>This is a reusable popup!</p>
             </PopUp> */}
             {/* <ExpoBtn type='pdf'/> */}
-            <CommonListHeader
+            {/* <CommonListHeader
                 header='Product List'
                 subHeader='Manage your products'
-            />
+            /> */}
             
         </div>
     );
