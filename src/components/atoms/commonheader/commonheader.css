@@ -11,3 +11,27 @@
 /* .common-header>.view-url>.view:hover{
     color: var(--success-color);
 } */
+
+/* ========================= */
+.common-list-header{
+
+}
+.common-list-header>.title-btns{
+    
+}
+.common-list-header>.title-btns>.title{
+
+}
+.common-list-header>.title-btns>.title>h4{
+    color: var(--text-block);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-bold);
+}
+.common-list-header>.title-btns>.title>span{
+    color: var(--text-light-color);
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-regular);
+}
+.common-list-header>.title-btns>.right-btns{
+    gap: 8px;
+}

@@ -1,6 +1,7 @@
 :root {
     /* Colors */
-    --primary-color: #3498db;
+    --primary-color: #3FB4FF;
+    --primary-color-hover: #709EFF;
     --secondary-color: #2ecc71;
     --tertiary-color: #9b59b6;
     --background-color: #f3f6f9;
@@ -192,6 +193,7 @@
     --button-font-size: 16px;
     --button-border-radius: 4px;
     --button-primary-background: var(--primary-color);
+    --button-primary-background-hover: var(--primary-color-hover);
     --button-secondary-background: var(--secondary-color);
     --button-tertiary-background: var(--tertiary-color);
     --button-primary-hover: #2980b9;

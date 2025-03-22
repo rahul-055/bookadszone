@@ -8,6 +8,7 @@ import Table from '../../molecules/table/Table';
 import { HEADERS, HEADERS1, TABLE_DATA, TABLE_DATA1 } from '../../../data/TableData';
 import PopUp from '../../atoms/popup/PopUp';
 import ExpoBtn from '../../atoms/button/ExpoBtn';
+import CommonListHeader from '../../atoms/commonheader/CommonListHeader';
 
 export const Dashboard = () => {
     const [isPopupOpen, setIsPopupOpen] = useState<boolean>(true);
@@ -32,6 +33,11 @@ export const Dashboard = () => {
                 <p>This is a reusable popup!</p>
             </PopUp> */}
             {/* <ExpoBtn type='pdf'/> */}
+            <CommonListHeader
+                header='Product List'
+                subHeader='Manage your products'
+            />
+            
         </div>
     );
 }
