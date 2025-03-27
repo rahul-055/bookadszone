@@ -17,10 +17,14 @@
 .popup-overlay .title-close {
     padding-bottom: 10px;
     border-bottom: 1px solid var(--border-color);
+    padding: 16px;
+    border-bottom: 1px solid var(--border-color);
 }
+
 .popup-overlay .content {
-    padding: 16px 0;
+    padding: 20px 16px;
 }
+
 .popup-overlay .title-close h4 {
     margin-bottom: 0;
 }
@@ -32,8 +36,7 @@
 
 /* Default popup content for web (centered modal) */
 .popup-content {
-    background: white;
-    padding: 20px;
+    background: var(--background-white);
     border-radius: 8px;
     max-width: 645px;
     width: 90%;
@@ -43,6 +46,15 @@
 
 .popup-overlay.open .popup-content {
     transform: scale(1);
+}
+
+.popup-overlay.open .popup-content>.pop-btn {
+    display: flex;
+    justify-content: end;
+    padding: 16px;
+    border-top: 1px solid var(--border-color);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 /* Close button */

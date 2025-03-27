@@ -25651,6 +25651,10 @@ dl li {
   flex-wrap: nowrap;
   flex-direction: column;
   margin-bottom: 60px;
+  margin-top: 16px;
+}
+.sidebar .nav h6{
+  margin-left: 20px;
 }
 .sidebar .nav .nav-item {
   padding: 0 2.25rem;
@@ -25670,7 +25674,7 @@ dl li {
   -webkit-align-items: center;
   align-items: center;
   white-space: nowrap;
-  padding: 1.125rem 0 1.125rem 0;
+  padding: 16px 0;
   color: #3e4b5b;
   -webkit-transition-duration: 0.45s;
   -moz-transition-duration: 0.45s;

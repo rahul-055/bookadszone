@@ -6,6 +6,7 @@ import DownloadBtn from '../button/DownloadBtn';
 interface CommonListHeaderProps {
   header: string
   subHeader: string
+  onAddUpdate?: ()=> void;
 }
 export default function CommonListHeader(props: CommonListHeaderProps) {
   return (
@@ -19,7 +20,7 @@ export default function CommonListHeader(props: CommonListHeaderProps) {
           <ExpoBtn type='xls' />
           <ExpoBtn type='pdf' />
           <ExpoBtn type='refresh' />
-          <Button type='button' text='Add Faq'/>
+          <Button type='button' text='Add Faq' onClick={props.onAddUpdate}/>
           <DownloadBtn text={'FAQ'} />
         </div>
       </div>

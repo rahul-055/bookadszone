@@ -10,9 +10,9 @@
     border: 1px solid var(--border-color);
 }
 .expo-btn>.btn-icon {
-    width: 45px;
-    height: 45px;
-    padding: 8px;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
 }
 /* ========================================= */
 .common-btn {

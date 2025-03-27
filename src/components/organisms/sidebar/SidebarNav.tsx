@@ -29,12 +29,14 @@ const SidebarNav = () => {
                 <i className="mdi mdi-bookmark-check text-success nav-profile-badge"></i>
               </a>
             </li> */}
+            <h6 className="lbl-title-5">Main</h6>
             <li className="nav-item">
               <p className="nav-link" onClick={() => navigateTo('/')}>
                 <span className="menu-title">Dashboard</span>
                 <i className="mdi mdi-home menu-icon"></i>
               </p>
             </li>
+            <h6 className="lbl-title-5">Sub Main</h6>
             <li className="nav-item">
               <a className="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
                 <span className="menu-title">Basic UI Elements</span>

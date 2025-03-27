@@ -23,3 +23,8 @@
     font-weight: var(--font-weight-regular);
     color: var(--text-light-color);
 }
+.lbl-title-5{
+    font-size: var(--font-size-xsmall);
+    font-weight: var(--font-weight-regular);
+    color: var(--text-block);
+}
