@@ -13,6 +13,10 @@ export interface InputProps {
     type: string;
     disabled?: boolean;
     className?: string;
+    name:string;
+    id:string;
+    pattern?:string;
+    required?:boolean
 }
 
 export interface IconProps {

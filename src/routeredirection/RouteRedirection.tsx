@@ -4,6 +4,7 @@ import { Header } from '../components/organisms/header/Header';
 import { Footer } from "../components/organisms/footer/Footer";
 import { usePath } from "../utils/coustomhook/CoustomHooks";
 import Faq from "../components/templates/faq/Faq";
+import RegistrationForm from "../components/organisms/forms/RegistrationForm";
 
 
 function RouteRedirection() {
@@ -17,6 +18,7 @@ function RouteRedirection() {
                     <div className="content-wrapper">
                         {path === '/' && <Dashboard />}
                         {path === '/faq' && <Faq />}
+                        {path === '/signup' && <RegistrationForm />}
                         <Footer />
                     </div>
 
