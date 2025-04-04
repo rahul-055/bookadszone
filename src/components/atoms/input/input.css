@@ -8,13 +8,4 @@
 }
 
 
-span{
-    font-size: 10px;
-    padding: 3px;
-    color: red;
-    display: none;
-}
 
-input:focus:invalid ~ span {
-    display: block;
-}

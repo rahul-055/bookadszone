@@ -5,6 +5,7 @@ import { Footer } from "../components/organisms/footer/Footer";
 import { usePath } from "../utils/coustomhook/CoustomHooks";
 import Faq from "../components/templates/faq/Faq";
 import RegistrationForm from "../components/organisms/forms/RegistrationForm";
+import LoginForm from "../components/organisms/forms/LoginForm";
 
 
 function RouteRedirection() {
@@ -19,6 +20,7 @@ function RouteRedirection() {
                         {path === '/' && <Dashboard />}
                         {path === '/faq' && <Faq />}
                         {path === '/signup' && <RegistrationForm />}
+                        {path === '/login' && <LoginForm/>}
                         <Footer />
                     </div>
 
