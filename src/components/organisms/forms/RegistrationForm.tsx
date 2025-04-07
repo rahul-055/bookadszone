@@ -96,7 +96,7 @@ function RegistrationForm() {
         Success("Successfully Registered")
         setTimeout(() => {
           setSubmitting(false);
-          navigateTo('login');
+          navigateTo('/login');
         }, 1500)
 
 

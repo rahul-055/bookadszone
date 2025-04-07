@@ -41,14 +41,14 @@ function LoginForm() {
             const loginData = trimStrings(values);
             console.log(loginData, "loginData");
 
-            const RegisteredUsers = JSON.parse(localStorage.getItem('signup-data') || '');
+            const RegisteredUsers = JSON.parse(localStorage.getItem('signup-data') || '[]');
             //console.log(JSON.stringify(RegisteredUsers,null,2));
-
+        console.log(RegisteredUsers,"RegisteredUsers");
             const Verification = RegisteredUsers.find((user: { email: string; passwordd: string }) => user.email === loginData.email && user.passwordd === loginData.password)
 
             console.log(Verification, "Verification");
 
-            if (Verification) {
+            if (RegisteredUsers &&Verification) {
                 Success("Successfully LogedIn!");
                 setSubmitting(false);
                 resetForm()
